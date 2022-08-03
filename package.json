@@ -1,0 +1,10 @@
+{
+  "name": "shortcuts-cfimages-action",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "scripts/index.js",
+  "keywords": [],
+  "author": "Mu-An Chiou",
+  "license": "MIT"
+}
