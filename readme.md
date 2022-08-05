@@ -1,18 +1,18 @@
 # shortcuts-cfimages-action
 
-This repository guides you through setting up a workflow to upload an image from your Apple device to Cloudflare Images, then trigger a GitHub Action which commits the response into your repository, for you to do whatever with; for example, you can use it to [build a RSS feed for photos](https://muan.co/photos.xml). 
+This repository guides you through setting up a workflow to upload photos from your Apple device to Cloudflare Images, then trigger a GitHub Action which commits the upload response into your repository, for you to do whatever with; for example, you can use it to [build a RSS feed of photos](https://muan.co/photos.xml). 
 
 ## Setup
 
 Step 1: Sign up for [Cloudflare Images](https://www.cloudflare.com/products/cloudflare-images/).
 
-Step 2: Fork this repository. Alternatively, set up a GitHub action like [`commit.yml`](.github/workflows/commit.yml) to receive the uploaded image data. But the  Shortcut in the next step assumes you are using this action.
+Step 2: Fork this repository. Alternatively, set up a GitHub Action like [`commit.yml`](.github/workflows/commit.yml) to receive the uploaded image metadata. The  Shortcut in the next step assumes you are using `commit.yml`, but it shouldn't be hard to customize.
 
-Step 3: Setup this [ Shortcut](https://www.icloud.com/shortcuts/accdd822b5c0461eaaf24c6219ed9699) with your Cloudflare credentials and the details of your repository action.
+Step 3: Install this [ Shortcut](https://www.icloud.com/shortcuts/accdd822b5c0461eaaf24c6219ed9699) and respond to setup questions with your Cloudflare credentials and the details of your GitHub Action.
 
 ### Cloudflare Images
 
-Cloudflare Images is not cheap but it takes care of serving and resizing your images in the most optimal way. Alternatively, check out [muan/stories-feed-action](https://github.com/muan/stories-feed-action) which simply put images into your repository.
+Cloudflare Images costs $60/year, but it takes care of serving and resizing your images in the most optimal way. Alternatively, check out [muan/stories-feed-action](https://github.com/muan/stories-feed-action) which simply commits photos into your repository.
 
 #### **Cloudflare API Token**
 
