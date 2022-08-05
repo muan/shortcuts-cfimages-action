@@ -28,11 +28,11 @@ This action takes the successful response from a Cloudflare Images upload, and a
 
 ###  Shortcut
 
-This action leads you through a few steps:
+The shortcut does the following:
 
-- Select a photo
-- Give it a caption and alt text
-- Upload it to Cloudflare Images with the caption/alt as its metadata
+- Prompt to select photo
+- Prompt for caption and alt text
+- Upload photo to Cloudflare Images with the caption/alt as its metadata
 - Trigger a `workflow_dispatch` event for a GitHub action with the response from the success upload
 
-Triggering a `workflow_dispatch` depends on you having install the [GitHub iOS app](https://apps.apple.com/app/github/id1477376905).
+The `workflow_dispatch` action depends on the [GitHub iOS app](https://apps.apple.com/app/github/id1477376905).
