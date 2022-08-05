@@ -1,6 +1,6 @@
 # shortcuts-cfimages-action
 
-This repository guides you through setting up a workflow to upload an image from your Apple device to Cloudflare Images, then trigger a GitHub Action which takes saves the response into your repository, for you to do whatever with; for example, you can use it to [build a RSS feed for photos](https://muan.co/photos.xml). 
+This repository guides you through setting up a workflow to upload an image from your Apple device to Cloudflare Images, then trigger a GitHub Action which commits the response into your repository, for you to do whatever with; for example, you can use it to [build a RSS feed for photos](https://muan.co/photos.xml). 
 
 ## Setup
 
